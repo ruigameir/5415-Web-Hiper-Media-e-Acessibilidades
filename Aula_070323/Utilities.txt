@@ -1,0 +1,17 @@
+IMAGENS >> https://br.freepik.com/
+IMAGE COLOR PICKER >> https://imagecolorpicker.com/
+
+APLICAÇÃO GRATUITA de manipulação de imagem https://www.gimp.org/
+[Editar formato .EPS e exportar para .JPG (formatos menores para web)]
+
+NOMES DOS FICHEIROS
+Não utilizar espaços, nem caracteres especiais
+
+https://www.w3schools.com/
+https://developer.mozilla.org/en-US/docs/Web/Tutorials
+https://getbootstrap.com/docs/4.6/getting-started/introduction/
+
+
+
+
+Data - Javascript

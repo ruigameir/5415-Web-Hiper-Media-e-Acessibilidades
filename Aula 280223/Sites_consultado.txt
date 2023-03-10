@@ -1,0 +1,7 @@
+28/02/2023
+https://www.w3schools.com/css/css_grid.asp
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries
+https://getbootstrap.com/docs/4.0/utilities/sizing/
+https://getbootstrap.com/docs/4.0/components/alerts/
+https://www.w3schools.com/css/css_font_google.asp
+https://fonts.google.com/

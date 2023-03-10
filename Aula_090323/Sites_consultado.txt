@@ -1,0 +1,53 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace     regex é para padrões, identificar expressões
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+
+console.log('dog ,cat,mouse '.split(',')[1].trim());
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+Ordem alfabética
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
+
+console.log(sentence.includes('fox')) - true
+console.log(sentence.includes('Fox')) - false
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+
+Bom para remover em posições específicas
+splice(start, deleteCount, item1)
+months.splice(1,2); //1 é a posição onde vamos remove. Vai remover 2 vezes na posição 1
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt
+
+console.log(Number.isNaN(Number.parseInt('asd')));
+console.log(Number.isNaN(Number.parseInt('2')));
+
+
+
+var exercice_1 = function(items){
+    var result = [];
+
+    for (var i = 0; i <items.length; i++) {
+
+        var item = items[i];
+        var firstChar = item.charAt(0).toUpperCase();
+        var restChar = item.slice(1).toLowerCase();
+        result.push(firstChar + restChar);
+
+    }
+
+    return result;
+};
+
+
+
+
+
+
+
