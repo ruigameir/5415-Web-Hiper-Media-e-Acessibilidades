@@ -35,3 +35,14 @@ body{
 
 }
 
+@media (min-width: 200px) and (max-width: 322px){
+    .col-sm-4.h-100.left{
+        padding: 0px 0px 0px 0px;
+    }
+
+    .Education,.Experience {
+        word-wrap: break-word;
+        max-width: 100%;
+      }
+}
+
