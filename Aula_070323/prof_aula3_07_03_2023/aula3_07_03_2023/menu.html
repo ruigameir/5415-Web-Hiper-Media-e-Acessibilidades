@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="menu.css">
+    <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<head>
+    <title>MENU SIMPLES</title>
+</head>
+<body>
+    <div class="menu">
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <div id="myMenu" class="menu-content">
+          <a href="#">Home</a>
+          <a href="#">News</a>
+          <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <script>
+        /* FUNCAO QUE MOSTRA OU ESCONDE O MENU-CONTENT */
+        function myFunction() {
+            document.getElementById("myMenu").classList.toggle("mostra");
+        }
+
+        // FECHA O MENU, QDO USR CLICA FORA DA AREA DO MENU-CONTENT
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("menu-content");
+            var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('mostra')) {
+                        openDropdown.classList.remove('mostra');
+                    }
+            }
+        }
+        }
+    </script>
+</body>
+<html>

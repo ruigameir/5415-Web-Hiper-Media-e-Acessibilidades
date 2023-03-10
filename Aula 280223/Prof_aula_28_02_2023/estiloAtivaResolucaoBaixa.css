@@ -1,0 +1,50 @@
+@font-face {
+	font-family: Roboto-Black;
+	src: url("fonts/Roboto-Thin.ttf"); /* Foi feito o download da Font */
+}
+
+body {
+    background-image: url("images/pizzaBG.jpg"); /* ATT ao nome das imagens. Não utilizar espaços, nem caracteres especiais*/
+    color: black;
+    font-family: 'Roboto-Thin';
+}       
+
+#grid-container { /*+INFO https://www.w3schools.com/css/css_grid_container.asp */
+    width: 75%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 25% 20% 40% 15%;
+    margin: auto;
+    background-color: #92cfc7;
+}
+
+#grid-container > div {
+    padding: 1%;
+    align-items: center;
+}
+
+#grid-header {
+    background-color: #acb399;}
+
+#grid-slider {
+    background-color:  #838d66;}
+
+#grid-content {
+    background-color: #596733;}
+
+#grid-footer {
+    background-color: #304100;}
+
+.row {
+    background-color: rgba(213,75,30,10); opacity:0.6; 
+    /* rgba(valor para red, valor para green, valor para blue, valor para opacidade)*/
+    /* +INFO https://www.w3schools.com/css/css3_colors.asp */
+}
+
+.meuEstilo {
+    width: 75%;
+    padding: 25px;
+    background-color: #5bc3bb;
+    color: white;
+    font-size: 25px;
+ }

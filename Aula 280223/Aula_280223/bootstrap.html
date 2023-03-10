@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>bootstrap</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto:wght@500&family=Silkscreen&display=swap');
+
+        body {
+            background-image: url("48.jpg");
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-rows: auto auto auto auto;
+            /*border: 1px solid black;*/
+            margin: 0% 10% 0% 10%;
+        }
+
+        .grid-container > div {
+            padding-left: 10px;
+        }
+
+        .grid-header {
+            background-color:#e55c6c;
+        }
+        .grid-slider {
+            background-color:#e08493;
+        }
+        .grid-content {
+            background-color:#f0b7bd;
+        }
+        .grid-footer {
+            background-color:#f7fcf6;
+        }
+
+        .grid-sizing{
+            margin: 0% 10% 5% 10%;
+        }
+
+        .grid-sizing > div {
+            padding-left: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+      <div class="grid-container">
+        <div class="grid-header">Header</div>
+        <div class="grid-slider">Slider</div>
+        <div class="grid-content">Content
+            <button>Click!</button>
+            <div class="sub-content">
+                Este é um elemento DIV
+            </div>
+        </div>
+        <div class="alert alert-secondary" role="alert">
+          This is a secondary alert—check it out!
+        </div>
+        <!--<div class="grid-footer">Footer</div>-->
+    </div>
+      <div class="grid-sizing" style="height: 100px;">
+        <div class="h-25 d-inline-block" style="width: 120px; background-color: #e55c6c">Height 25%</div>
+        <div class="h-50 d-inline-block" style="width: 120px; background-color: #e08493">Height 50%</div>
+        <div class="h-75 d-inline-block" style="width: 120px; background-color: #f0b7bd">Height 75%</div>
+        <div class="h-100 d-inline-block" style="width: 120px; background-color: #f7fcf6">Height 100%</div>
+      </div>
+    
+</body>
+</html>

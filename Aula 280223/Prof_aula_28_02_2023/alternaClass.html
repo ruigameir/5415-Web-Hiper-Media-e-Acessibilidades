@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt"> 
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" href="estiloAlternaClass.css">
+    <link rel="stylesheet" href="estiloAtivaResolucaoBaixa.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!--CONTENT DELIVERY NETWORK -->
+
+        <title>FORMATO GRELHA e ALTERAR CLASS</title>    
+</head>
+    <body>
+         <div id="grid-container">
+           <div id="grid-header">Header</div>
+           <div id="grid-slider">Slider</div>
+           <div id="grid-content">Content
+            <button onclick="alteraClass()">Clica</button> <!-- Button que chama função -->
+                <div id="myDIV">
+                    Este é um elemento DIV, que, após clique no btn, modifica a class
+                </div>
+           </div>
+           <div id="grid-footer">Footer</div>
+        </div>
+
+        &nbsp; &nbsp; <!-- espaços -->
+
+        <!-- CONTENTOR GRID BOOTSTRAP -->
+        <!-- +INFO https://getbootstrap.com/docs/4.0/layout/grid/-->
+        <div class="container w-100"> 
+            <div class="row" style="height: 200px;"> 
+                <div class="col w-33">
+                    ESQUERDA
+                </div>
+                <div class="col w-33">
+                    CENTRO
+                </div>
+                <div class="col w-33">
+                    DIREITA
+                </div>
+            </div>
+        </div>
+
+        <script>
+            /* +INFO Elemento Object - Propriedades e métodos
+            https://www.w3schools.com/jsref/dom_obj_all.asp */
+
+            var d = new Date(); /* retorna data*/
+            function alteraClass() {
+                var elemento = document.getElementById("myDIV"); // associa o #myDIV à var elemento
+                    elemento.innerHTML=d; //no elemento vai escrever a data
+                    elemento.classList.toggle("meuEstilo"); // classList retorna a class do elemento. O método toggle modifica a class
+            }
+        </script>
+    </body>
+</html>

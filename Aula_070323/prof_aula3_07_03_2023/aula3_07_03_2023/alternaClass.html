@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloAlternaClass.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="estiloAlternaClass2.css" >
+    
+    <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas -->
+    <!-- https://www.w3schools.com/css/css_grid_container.asp -->
+    
+    
+<head>
+    <title>Alterna Class</title> 
+        
+</head>
+    <body>
+         <div id="grid-container">
+           <div id="grid-header">Header</div>
+           <div id="grid-slider">Slider</div>
+           <div id="grid-content">Conteudo
+            <!--button onclick="alteraClass()">Clica</button>
+            <div id="myDIV">
+                Este é um elemento DIV
+            </div-->
+           </div>
+           <div id="grid-footer">Footer</div>
+        </div>
+        
+        <script>
+            /* +INFO Elemento Object - Propriedades e métodos
+            https://www.w3schools.com/jsref/dom_obj_all.asp*/
+
+            var d = new Date(); /* retorna data*/
+
+            function alteraClass() {
+                var elemento = document.getElementById("myDIV"); // associa o #myDIV à var elemento
+                    elemento.innerHTML=d;
+                    elemento.classList.toggle("meuEstilo"); //The classList property retorna a class do elemento.
+            }
+        </script>
+
+<div></div>
+    </body>
+</html>
+        

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+    
+<head>
+    <title>NAVEGAÇÃO JS E CSS</title>
+    <link rel="stylesheet" href="alteraEstilo.css">  
+</head>
+<body>
+  <!-- https://www.w3schools.com/howto/howto_js_navbar_slide.asp -->
+  
+     <div class="navbar" id="myNavbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        <a href="javascript:void(0);" class="cruz" onclick="myFunction()">&#10799;</a>
+      </div>
+
+      <script>
+        /* Toggle between adding and removing the "responsive" class to the navbar when the user clicks on the icon */
+        /*https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality*/
+        function myFunction() {
+          var x = document.getElementById("myNavbar");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+      </script>
+</body>
+</html>

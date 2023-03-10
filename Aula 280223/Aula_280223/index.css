@@ -1,0 +1,27 @@
+body {
+    background-image: url("48.jpg");
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    /*border: 1px solid black;*/
+    margin: 0% 10% 5% 10%;
+}
+
+.grid-container > div {
+    padding-left: 10px;
+}
+
+.grid-header {
+    background-color:#e55c6c;
+}
+.grid-slider {
+    background-color:#e08493;
+}
+.grid-content {
+    background-color:#f0b7bd;
+}
+.grid-footer {
+    background-color:#f7fcf6;
+}
