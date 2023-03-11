@@ -11,8 +11,9 @@
 
     <title>CV</title>
 </head>
-<body>
-    <div class="container mt-5 mb-5 "> 
+<body>  
+
+    <div class="container mt-5 mb-5"> 
         <div class="row justify-content-center align-items-stretch d-flex">
           <div class="col-sm-4 h-100 left" style="background-color: #eee8da; margin-left: 13px; margin-right: 20px;">
               <img src="Foto CV.png" alt="Responsive image" class="img-fluid rounded mx-auto d-block pt-4" style="max-width: 60%;">
@@ -34,6 +35,7 @@
                 <li class="list-group-item" style="background-color: #eee8da; border: 0px;">Responsibility and dedication</li>
                 <li class="list-group-item pb-4" style="background-color: #eee8da; border: 0px;">Initiative and critical spirit</li>
             </ul>
+
           </div>
           <div class="col-sm-7 h-100 right">
             <div class="container" style="background-color: #eee8da; margin-bottom: 27px;">             
@@ -72,12 +74,26 @@
               <p class="px-4 ml-3">Bachelor of Forensic and Criminal Sciences</p>
               <hr style="width: 92%;">
           </div>
-        </div>
+          
+          <button onclick="mostraData()">Data</button>
+          <div id="Data" style="background-color: #eee8da;"></div>
 
         </div>
-
         
+      </div>
+       
     </div>
+
+  <script>
+
+      var d = new Date(); 
+
+      function mostraData() {
+          var elemento = document.getElementById("Data");
+              elemento.innerHTML = d; 
+      }
+
+  </script>
 
 </body>
 </html>
