@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+
+body{
+    background-image: url("1.jpg");
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+}
+
+div{
+    opacity: 0.97; 
+}
+
+@media (max-width: 767.98px) {
+    .email,.linkedin {
+        word-wrap: break-word;
+        max-width: 100%;
+      }
+
+}
+
+@media (max-width: 575.98px) {
+
+    body{
+        font-family: 'Merriweather', serif;
+    }
+    .container > .row > .col-sm-4{
+        margin-bottom: 27px;
+    }
+
+    .col-sm-4.h-100.left{
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+    }
+
+    .col-sm-7.h-100.right{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+
+}
+
+@media (min-width: 200px) and (max-width: 322px){
+    body{
+        font-family: 'Merriweather', serif;
+    }
+
+    .col-sm-4.h-100.left{
+        padding: 0px 0px 0px 0px;
+    }
+
+    .Education,.Experience {
+        word-wrap: break-word;
+        max-width: 100%;
+      }
+}
