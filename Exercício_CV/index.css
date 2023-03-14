@@ -49,7 +49,7 @@ div{
         font-family: 'Merriweather', serif;
     }
 
-    .col-sm-4.h-100.left{
+    .col-sm-4.h-100.left.pt-4{
         padding: 0px 0px 0px 0px;
     }
 
@@ -58,4 +58,3 @@ div{
         max-width: 100%;
       }
 }
-
