@@ -1,0 +1,19 @@
+trabalho final - planear nas próximas aulas + quiz (pedaços de código, coisas que já fizemos.
+ex:  * faz o quê?. Tem a ver com o CSS.
+
+template para pizzaria:
+barras de navegação
+bootstrap
+
+sem logins e assim. Apenas template com essas áreas
+
+lá em cima o menu
+destaques do dia ou da semana  -> carrossel
+em baixo promoções, os cards
+
+
+https://www.w3schools.com/js/js_dates.asp
+https://www.w3schools.com/jsref/jsref_getdate.asp
+https://www.w3schools.com/jsref/jsref_getday.asp
+https://www.w3schools.com/jsref/jsref_getmonth.asp
+https://www.w3schools.com/jsref/jsref_getfullyear.asp
