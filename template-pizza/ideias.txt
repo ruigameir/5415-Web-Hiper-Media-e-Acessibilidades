@@ -10,5 +10,6 @@ botão comprar
 clássicas - cenas 2 - cenas 3
 Quer ver as nossa pizzas? Faz um dropdown...
 
+homepage fixa
 
 
