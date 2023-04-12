@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body {
+    font-family: 'Secular One', sans-serif;
+}
+
+.navbar-nav a{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.navbar-nav a:hover {
+    color: grey !important;
+    transition: 0.5s;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+#login{
+    margin-top: 180px;
+    margin-bottom: 122px;
+}
