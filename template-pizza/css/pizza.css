@@ -51,6 +51,10 @@ body {
     border: crimson;
 }
 
+#tabs a {
+    background-color: crimson; 
+}
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */

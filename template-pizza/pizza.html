@@ -142,143 +142,177 @@
   <div class="container" style="max-width: 1300px; top:200px">
     <div class="row justify-content-center">
       <div class="card mx-3" style="width: 18rem;">
-        <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary crimson">QUERO!</a>
+        <img class="card-img-top" src="img/Promo_1.png" alt="Card image cap">
+        <div class="card-body d-flex flex-column text-center">
+          <h5 class="card-title">PIZZA + OFERTA DE BEBIDA</h5>
+          <h5 class="card-title">PAN 12,95€</h5>
+          <p class="card-text">1 Pizza Pan (clássicas) + OFERTA 2 Lata 0,33cl</p>
+          <a href="#" class="btn btn-primary crimson mt-auto text-center">QUERO!</a>
+        </div>
+      </div>
+      <div class="card mx-3 text-center" style="width: 18rem;">
+        <img class="card-img-top" src="img/Promo_2.png" alt="Card image cap">
+        <div class="card-body d-flex flex-column text-center">
+          <h5 class="card-title">PIZZA + OFERTA DE BEBIDA</h5>
+          <h5 class="card-title">PAN 14,95€</h5>
+          <p class="card-text">1 Pizza Pan (clássicas) + OFERTA 2 Lata 0,33cl</p>
+          <a href="#" class="btn btn-primary crimson mt-auto text-center">QUERO!</a>
         </div>
       </div>
       <div class="card mx-3" style="width: 18rem;">
-        <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary crimson" style="color-back">QUERO!</a>
+        <img class="card-img-top" src="img/Promo_3.png" alt="Card image cap">
+        <div class="card-body d-flex flex-column text-center">
+          <h5 class="card-title">PROMOCALHAS | QUALQUER PIZZA EM QUALQUER TAMANHO 13,95€</h5>
+          <p class="card-text">Pede qualquer pizza de qualquer tamanho só por 13,95€</p>
+          <a href="#" class="btn btn-primary crimson mt-auto text-center">QUERO!</a>
         </div>
       </div>
       <div class="card mx-3" style="width: 18rem;">
-        <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary crimson">QUERO!</a>
-        </div>
-      </div>
-      <div class="card mx-3" style="width: 18rem;">
-        <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary crimson">QUERO!</a>
+        <img class="card-img-top" src="img/Promo_4.png" alt="Card image cap">
+        <div class="card-body d-flex flex-column text-center">
+          <h5 class="card-title">30% DESCONTO TODAS AS</h5>
+          <h5 class="card-title">PIZZAS</h5>
+          <p class="card-text">Promoção não acumulável com outros cupões</p>
+          <a href="#" class="btn btn-primary crimson mt-auto text-center">QUERO!</a>
         </div>
       </div>
     </div>
   </div>
   <!--Fim Promoções-->
 
-  <div class="container pt-4" id="menus">
-    <div class="row justify-content-center title-promotions py-4 ">
+  <!--Menus-->
+  <div class="container pt-5" id="menus">
+    <div class="row justify-content-center title-promotions">
       <p class="font-weight-bold">MENUS</p>
     </div>
   </div>
 
-  <div class="container">
-    <h1 class="font-weight-bold">CLÁSSICAS</h1>
-    <div class="row align-items-center pt-1">
-      <div class="col-4">
-        <figure class="figure">
-          <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
-          <figcaption class="figure-caption">
-            travel 1
-          </figcaption>
-        </figure>
+  <!--Tabs-->
+  <div class="container pb-5" id="tabs">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <!--Botao Clássicas-->
+      <li class="nav-item mr-2">
+        <a class="nav-link active" id="pills-classicas-tab" data-toggle="pill" href="#pills-classicas" role="tab"
+          aria-controls="pills-classicas" aria-selected="false" style="background-color: crimson;">CLÁSSICAS</a>
+      </li>
+      <!--Fim Botão Clássicas-->
+
+      <!--Botão Favoritas-->
+      <li class="nav-item mr-2" id="favoritas-tab">
+        <a class="nav-link" data-toggle="pill" href="#pills-favoritas" role="tab" aria-controls="pills-favoritas"
+          aria-selected="false">FAVORITAS</a>
+      </li>
+      <!--Fim Botão Favoritas-->
+
+      <!--Botão Premium-->
+      <li class="nav-item mr-2" id="premium-tab">
+        <a class="nav-link" data-toggle="pill" href="#pills-premium" role="tab" aria-controls="pills-premium"
+          aria-selected="false">PREMIUM</a>
+      </li>
+    </ul>
+    <!--Fim Botão Premium-->
+
+    <!--Clássicas-->
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-classicas" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row align-items-center pt-1">
+          <div class="col-4">
+            <figure class="figure">
+              <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption">
+                Carbonara
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure class="figure">
+              <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption">
+                4 estações
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure class="figure">
+              <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption">
+                Yummy!
+              </figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
-      <div class="col-4">
-        <figure class="figure">
-          <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
-          <figcaption class="figure-caption">
-            travel 1
-          </figcaption>
-        </figure>
+      <!--Fim Clássicas-->
+
+      <!--Favorita-->
+      <div class="tab-pane fade" id="pills-favoritas" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="row align-items-center pt-1">
+          <div class="col-4">
+            <figure class="figure">
+              <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption">
+                SPORTING
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure class="figure">
+              <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption">
+                SPORTING
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure class="figure">
+              <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption">
+                SPORTING
+              </figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
-      <div class="col-4">
-        <figure class="figure">
-          <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
-          <figcaption class="figure-caption">
-            travel 1
-          </figcaption>
-        </figure>
+      <!--Fim Favoritas-->
+
+      <!--Premium-->
+      <div class="tab-pane fade" id="pills-premium" role="tabpanel" aria-labelledby="pills-contact-tab">
+        <div class="row align-items-center pt-1">
+          <div class="col-4">
+            <figure class="figure">
+              <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption">
+                BENFICA
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure class="figure">
+              <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption">
+                BENFICA
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure class="figure">
+              <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
+              <figcaption class="figure-caption">
+                BENFICA
+              </figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <!--Fim Premium-->
 
-  <div class="container">
-    <h1 class="font-weight-bold mt-4">CLÁSSICAS</h1>
-    <div class="row align-items-center pt-2">
-      <div class="col-4">
-        <figure class="figure">
-          <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
-          <figcaption class="figure-caption">
-            travel 1
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-4">
-        <figure class="figure">
-          <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
-          <figcaption class="figure-caption">
-            travel 1
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-4">
-        <figure class="figure">
-          <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
-          <figcaption class="figure-caption">
-            travel 1
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <h1 class="font-weight-bold mt-4">CLÁSSICAS</h1>
-    <div class="row align-items-center pt-2 mb-5">
-      <div class="col-4">
-        <figure class="figure">
-          <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
-          <figcaption class="figure-caption">
-            travel 1
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-4">
-        <figure class="figure">
-          <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
-          <figcaption class="figure-caption">
-            travel 1
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-4">
-        <figure class="figure">
-          <img src="img/1.jpg" alt="" class="figure-img img-fluid rounded">
-          <figcaption class="figure-caption">
-            travel 1
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-  </div>
-
+  <!--Fim dos Menus-->
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
   <script>
+    /*Top Button*/
     let mybutton = document.getElementById("myBtn");
 
     window.onscroll = function () {
@@ -298,6 +332,21 @@
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
+
+    /*Fim Top Button*/
+
+    /*Nav Bar Tabs*/
+
+    $('#classicas').on('click', function (e) {
+      e.preventDefault()
+      $(this).tab('show')
+    })
+
+    $('#classicas a[href="##pills-classicas"]').tab('show') // Select tab by name
+    $('#classicas li:first-child a').tab('show') // Select first tab
+    $('#clasicas li:last-child a').tab('show') // Select last tab
+
+    /*Fim - Nav Bar Tabs*/
   </script>
 
 
@@ -314,7 +363,7 @@
 </body>
 
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-white text-muted">
+<footer class="text-center text-lg-start bg-white text-muted mt-5">
   <!-- Social media -->
   <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
     style="background-color: crimson; color: white;">

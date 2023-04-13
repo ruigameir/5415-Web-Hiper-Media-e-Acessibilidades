@@ -1,5 +1,3 @@
-promoçoes - ver dominos
-
 botão comprar
 
 3 opções
@@ -8,11 +6,11 @@ Quer ver as nossa pizzas? Faz um dropdown... - nav tabs!! https://getbootstrap.c
 
 google maps no footer
 
-Texto em cima do slider!!
 
 Tirar barra branca a seguir a navbar no mobile
 
 login
+
 
  <!-- Section: Links
   <section class="">
