@@ -3,6 +3,7 @@ botão comprar
 3 opções
 clássicas - cenas 2 - cenas 3
 Quer ver as nossa pizzas? Faz um dropdown... - nav tabs!! https://getbootstrap.com/docs/5.0/components/navs-tabs/
+https://mdbootstrap.com/support/standard/changing-color-on-pills/
 
 google maps no footer
 
