@@ -1,8 +1,0 @@
-Responsive:
-espaço entre cards
-menus
-Tirar barra branca a seguir a navbar no mobile
-
-login - nav, mudar cores
-
-comentar

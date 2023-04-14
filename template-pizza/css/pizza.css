@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
-body {
+html, body {
     font-family: 'Secular One', sans-serif;
 }
 
+/*Navbar*/
 .navbar-nav a {
     font-size: 20px;
     padding-top: 20px;
@@ -20,6 +21,9 @@ body {
     font-size: 50px;
 }
 
+/*Fim Navbar*/
+
+/* Carousel */
 .carousel-inner img {
     height: 520px;
     object-fit: cover;
@@ -40,6 +44,9 @@ body {
     transition: 0.35s;
 }
 
+/* Fim Carousel */
+
+/* Promoções */
 .card-img-top {
     height: 200px;
     object-fit: cover;
@@ -51,10 +58,9 @@ body {
     padding: 10px;
 }
 
-.crimson {
-    background-color: crimson;
-    border: crimson;
-}
+/* Fim Promoções */
+
+/* Menus */
 
 .nav-pills .nav-link.active {
     background-color: crimson;
@@ -78,16 +84,27 @@ body {
     color: black;
 }
 
+/* Fim Menus */
+
+/* Botões */
+.crimson {
+    background-color: crimson;
+    border: crimson;
+}
+
 .btn-primary:hover {
     background-color: black;
 }
 
-.info a{
+/* Fim Botões */
+
+/* Footer */
+.info a {
     font-size: 20px;
     color: white;
 }
 
-.info a:hover{
+.info a:hover {
     color: grey;
 }
 
@@ -96,10 +113,13 @@ body {
     color: white;
 }
 
-.social a:hover{
+.social a:hover {
     color: grey;
 }
 
+/* Fim Footer */
+
+/* Top Button */
 #myBtn {
     display: none;
     /* Hidden by default */
@@ -130,3 +150,75 @@ body {
 #myBtn:hover {
     background-color: grey;
 }
+
+/* Fim Top Button */
+
+/* media query */
+@media only screen and (max-width: 1200px) {
+    #EncomendasNavbarSupportedContent {
+        padding-top: 55px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #EncomendasNavbarSupportedContent {
+        display: none;
+    }
+
+    #carouselExampleIndicators {
+        margin: 0;
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    #EncomendasNavbarSupportedContent {
+        display: none;
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    #EncomendasNavbarSupportedContent {
+        display: none;
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+    #pills-tabContent .col-sm-4{
+        margin-bottom: 20px !important;
+    }
+
+    .footer-column{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    iframe {
+        max-width: 100%;
+        height: 250px;
+    }
+
+}
+
+/* Fim media query */

@@ -53,13 +53,11 @@
             <a class="dropdown-item" href="#">Sul</a>
           </div>
         </li>
-      </ul>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 12px;">
-      <form class="form-inline my-1 my-lg-0">
-        <input class="form-control mr-sm-3 mt-1" type="search" placeholder="Search" aria-label="Search">
-      </form>
-      <ul class="navbar-nav mr-auto">
+        <li>
+          <form class="form-inline my-1 my-lg-0">
+            <input class="form-control mr-sm-3 mt-1" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </li>
         <li class="nav-item active">
           <a class="nav-link mt-1" href="pizza_login.html"><i class="fa-solid fa-user"></i> Login</a>
         </li>
@@ -72,8 +70,9 @@
   <!--End of Home Navbar-->
 
   <!--Encomenda Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top pb-3 pt-4" style="top: 101px; background-color: white;">
-    <div class="collapse navbar-collapse" id="EncomendasNavbarSupportedContent">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top pb-3 pt-3" id="EncomendasNavbarSupportedContent"
+    style="top: 101px; background-color: white;">
+    <div class="collapse navbar-collapse">
       <ul class="navbar-nav mx-auto pt-1">
         <li class="nav-item active mr-3">
           <a class="nav-link px-3 py-3" style="color: black">INICIAR ENCOMENDA<span class="sr-only">(current)</span></a>
@@ -216,7 +215,8 @@
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-classicas" role="tabpanel" aria-labelledby="pills-home-tab">
         <div class="row align-items-center text-center pt-1">
-          <div class="col-4">
+           <!--Pizza 1-->
+          <div class="col-sm-4">
             <figure class="figure">
               <img src="img/carbonara.png" alt="" class="figure-img img-fluid rounded">
               <figcaption class="figure-caption pt-1">
@@ -225,7 +225,8 @@
             </figure>
             <a href="#" class="btn btn-primary crimson mt-auto text-center">COMPRAR</a>
           </div>
-          <div class="col-4">
+          <!--Pizza 2-->
+          <div class="col-sm-4">
             <figure class="figure">
               <img src="img/4_queijos.jpg" alt="" class="figure-img img-fluid rounded">
               <figcaption class="figure-caption pt-1">
@@ -234,7 +235,8 @@
             </figure>
             <a href="#" class="btn btn-primary crimson mt-auto text-center">COMPRAR</a>
           </div>
-          <div class="col-4">
+          <!--Pizza 3-->
+          <div class="col-sm-4">
             <figure class="figure">
               <img src="img/cheese_ham.jpg" alt="" class="figure-img img-fluid rounded">
               <figcaption class="figure-caption pt-1">
@@ -250,7 +252,8 @@
       <!--Favorita-->
       <div class="tab-pane fade" id="pills-favoritas" role="tabpanel" aria-labelledby="pills-profile-tab">
         <div class="row align-items-center text-center pt-1">
-          <div class="col-4">
+          <!--Pizza 1-->
+          <div class="col-sm-4">
             <figure class="figure">
               <img src="img/Crispy_Bacon.png" alt="" class="figure-img img-fluid rounded">
               <figcaption class="figure-caption pt-1">
@@ -259,7 +262,8 @@
             </figure>
             <a href="#" class="btn btn-primary crimson mt-auto text-center">COMPRAR</a>
           </div>
-          <div class="col-4">
+          <!--Pizza 2-->
+          <div class="col-sm-4">
             <figure class="figure">
               <img src="img/hot_pepperoni.jpg" alt="" class="figure-img img-fluid rounded">
               <figcaption class="figure-caption pt-1">
@@ -268,7 +272,8 @@
             </figure>
             <a href="#" class="btn btn-primary crimson mt-auto text-center">COMPRAR</a>
           </div>
-          <div class="col-4">
+          <!--Pizza 3-->
+          <div class="col-sm-4">
             <figure class="figure">
               <img src="img/Bacana.png" alt="" class="figure-img img-fluid rounded">
               <figcaption class="figure-caption pt-1">
@@ -284,7 +289,8 @@
       <!--Premium-->
       <div class="tab-pane fade" id="pills-premium" role="tabpanel" aria-labelledby="pills-contact-tab">
         <div class="row align-items-center text-center pt-1">
-          <div class="col-4">
+          <!--Pizza 1-->
+          <div class="col-sm-4">
             <figure class="figure">
               <img src="img/tropicana.png" alt="" class="figure-img img-fluid rounded">
               <figcaption class="figure-caption pt-1">
@@ -293,7 +299,8 @@
             </figure>
             <a href="#" class="btn btn-primary crimson mt-auto text-center">COMPRAR</a>
           </div>
-          <div class="col-4">
+          <!--Pizza 2-->
+          <div class="col-sm-4">
             <figure class="figure">
               <img src="img/barbecue.png" alt="" class="figure-img img-fluid rounded">
               <figcaption class="figure-caption pt-1">
@@ -302,7 +309,8 @@
             </figure>
             <a href="#" class="btn btn-primary crimson mt-auto text-center">COMPRAR</a>
           </div>
-          <div class="col-4">
+          <!--Pizza 3-->
+          <div class="col-sm-4">
             <figure class="figure">
               <img src="img/campestre.png" alt="" class="figure-img img-fluid rounded">
               <figcaption class="figure-caption pt-1">
@@ -377,13 +385,17 @@
 <footer class="pt-5" style="background-color: black; color: white;">
   <div class="container-fluid">
     <div class="row footer info align-items-start">
-      <div class="col-4 footer-column ml-4">
+      <!-- Google Maps -->
+      <div class="col-sm-4 footer-column ml-4">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3118.9726744464224!2d-9.006075985300791!3d38.58047707316868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd194622e5ad46d1%3A0x123b3f86b5ed915a!2sATEC%20-%20Academia%20de%20Forma%C3%A7%C3%A3o%20-%20Palmela!5e0!3m2!1spt-PT!2spt!4v1681478826535!5m2!1spt-PT!2spt"
           width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="col-4 footer-column text-center">
+      <!-- Fim Google Maps -->
+
+      <!-- About Us -->
+      <div class="col-sm-4 footer-column text-center">
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
             <h2 class="navbar-brand">Pizzaria Romano</h2>
@@ -399,7 +411,10 @@
           </li>
         </ul>
       </div>
-      <div class="col-3 footer-column text-center">
+      <!-- Fim About Us -->
+
+      <!-- Contatos -->
+      <div class="col-sm-3 footer-column text-center">
         <ul class="nav flex-column">
           <li class="nav-item mb-3">
             <h2 class="nav-link mt-4 ml-2">Contatos & Apoio</h2>
@@ -416,14 +431,19 @@
         </ul>
       </div>
     </div>
+    <!-- Fim Contatos -->
 
     <div class="row text-center">
-      <div class="col-md-4 pt-3">
+      <!-- Copyright -->
+      <div class="col-sm-4 pt-3">
         <h5 class="copyright quick-links">Copyright &copy; Rui Gameiro <script>
             document.write(new Date().getFullYear())
           </script>
         </h5>
       </div>
+      <!-- Fim Copyright -->
+
+      <!-- Socials -->
       <div class="col-md-4 box social ml-4">
         <ul class="list-inline social-buttons">
           <li class="list-inline-item">
@@ -443,10 +463,11 @@
           </li>
         </ul>
       </div>
+      <!-- Fim Socials -->
+
     </div>
   </div>
 </footer>
 <!-- End of Footer -->
-
 
 </html>

@@ -5,7 +5,8 @@ body {
     font-family: 'Secular One', sans-serif;
 }
 
-.navbar-nav a{
+/*Navbar*/
+.navbar-nav a {
     font-size: 20px;
     padding-top: 20px;
 }
@@ -20,17 +21,46 @@ body {
     font-size: 50px;
 }
 
-#login{
+/*Fim Navbar*/
+
+/* Login */
+#login {
     margin-top: 180px;
     margin-bottom: 122px;
 }
 
-.info a{
+h1.text-info {
+    color: crimson !important;
+}
+
+label.text-info,
+a.text-info {
+    color: crimson !important;
+    font-size: 20px;
+}
+
+a.text-info:hover {
+    color: black !important;
+}
+
+.btn-info {
+    background-color: crimson;
+    border: crimson;
+}
+
+.btn-info:hover {
+    background-color: black;
+}
+
+/* Fim Login */
+
+/* Footer */
+.info a {
     font-size: 20px;
     color: white;
 }
 
-.info a:hover{
+.info a:hover {
     color: grey;
 }
 
@@ -39,6 +69,41 @@ body {
     color: white;
 }
 
-.social a:hover{
+.social a:hover {
     color: grey;
 }
+
+/* Fim Footer */
+
+/* media query */
+@media only screen and (max-width: 992px) {
+
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .footer-column {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Fim media query */
