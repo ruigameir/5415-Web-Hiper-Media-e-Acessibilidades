@@ -17,7 +17,7 @@
 <body>
 
     <!--Home Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: crimson;">
         <a class="navbar-brand pl-3" href="pizza.html">Pizzaria Romano</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,15 +53,16 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Sul</a>
                     </div>
-
+                </li>
+            </ul>
         </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 12px;">
             <form class="form-inline my-1 my-lg-0">
                 <input class="form-control mr-sm-3 mt-1" type="search" placeholder="Search" aria-label="Search">
             </form>
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link mt-1" href="#"><i class="fa-solid fa-user"></i> Login</a>
+                    <a class="nav-link mt-1" href="pizza_login.html"><i class="fa-solid fa-user"></i> Login</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link mt-1" href="#"><i class="bi bi-cart-fill"></i> Carrinho</a>
@@ -105,45 +106,77 @@
 </body>
 
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-white text-muted">
-    <!-- Social media -->
-    <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-        style="background-color: crimson; color: white;">
-        <!-- Left -->
-        <div class="">
-            Pizzaria Romano
+<footer class="pt-5" style="background-color: black; color: white;">
+    <div class="container-fluid">
+        <div class="row footer info align-items-start">
+            <div class="col-4 footer-column ml-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3118.9726744464224!2d-9.006075985300791!3d38.58047707316868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd194622e5ad46d1%3A0x123b3f86b5ed915a!2sATEC%20-%20Academia%20de%20Forma%C3%A7%C3%A3o%20-%20Palmela!5e0!3m2!1spt-PT!2spt!4v1681478826535!5m2!1spt-PT!2spt"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-4 footer-column text-center">
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <h2 class="navbar-brand">Pizzaria Romano</h2>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link" href="#">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link" href="#">Trabalha Connosco</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link" href="#">Perguntas Frequentes</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-3 footer-column text-center">
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-3">
+                        <h2 class="nav-link mt-4 ml-2">Contatos & Apoio</h2>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link" href="#"><i class="fas fa-phone"></i> 217 096 394</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contatem-nos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-star"></i> Deixem as vossas recomendações</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="me-5 d-none d-lg-block">
-            <span>Apoio ao Cliente - 217 219 850 (Chamada para a rede fixa nacional)</span>
-        </div>
-        <!-- Left -->
 
-        <!-- Right -->
-        <div>
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-google"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-                <i class="fab fa-github"></i>
-            </a>
+        <div class="row text-center">
+            <div class="col-md-4 pt-3">
+                <h5 class="copyright quick-links">Copyright &copy; Rui Gameiro <script>
+                        document.write(new Date().getFullYear())
+                    </script>
+                </h5>
+            </div>
+            <div class="col-md-4 box social ml-4">
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <!-- Right -->
     </div>
-    <!-- Section: Social media -->
-
-    
 </footer>
 <!-- End of Footer -->
 

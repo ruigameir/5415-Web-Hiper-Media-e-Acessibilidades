@@ -82,9 +82,22 @@ body {
     background-color: black;
 }
 
+.info a{
+    font-size: 20px;
+    color: white;
+}
+
+.info a:hover{
+    color: grey;
+}
+
 .social a {
     font-size: 2rem;
     color: white;
+}
+
+.social a:hover{
+    color: grey;
 }
 
 #myBtn {
