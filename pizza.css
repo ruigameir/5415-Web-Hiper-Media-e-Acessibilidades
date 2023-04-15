@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+html, body {
+    font-family: 'Secular One', sans-serif;
+}
+
+/*Navbar*/
+.navbar-nav a {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.navbar-nav a:hover {
+    color: grey !important;
+    transition: 0.5s;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+/*Fim Navbar*/
+
+/* Carousel */
+.carousel-inner img {
+    height: 520px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+#carouselExampleIndicators {
+    margin-top: 103px;
+}
+
+#reserva h2 {
+    color: white;
+}
+
+#reserva:hover {
+    color: grey !important;
+    transition: 0.35s;
+}
+
+/* Fim Carousel */
+
+/* Promoções */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.title-promotions p {
+    font-size: 50px;
+    border: 10px black solid;
+    padding: 10px;
+}
+
+/* Fim Promoções */
+
+/* Menus */
+
+.nav-pills .nav-link.active {
+    background-color: crimson;
+}
+
+.nav-pills a {
+    color: black;
+}
+
+.figure-img {
+    height: 250px;
+    width: 450px;
+}
+
+.figure {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.figure-caption {
+    color: black;
+}
+
+/* Fim Menus */
+
+/* Botões */
+.crimson {
+    background-color: crimson;
+    border: crimson;
+}
+
+.btn-primary:hover {
+    background-color: black;
+}
+
+/* Fim Botões */
+
+/* Footer */
+.info a {
+    font-size: 20px;
+    color: white;
+}
+
+.info a:hover {
+    color: grey;
+}
+
+.social a {
+    font-size: 2rem;
+    color: white;
+}
+
+.social a:hover {
+    color: grey;
+}
+
+/* Fim Footer */
+
+/* Top Button */
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 100px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: crimson;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    font-size: 20px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: grey;
+}
+
+/* Fim Top Button */
+
+/* media query */
+@media only screen and (max-width: 1200px) {
+    #EncomendasNavbarSupportedContent {
+        padding-top: 55px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #EncomendasNavbarSupportedContent {
+        display: none;
+    }
+
+    #carouselExampleIndicators {
+        margin: 0;
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    #EncomendasNavbarSupportedContent {
+        display: none;
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    #EncomendasNavbarSupportedContent {
+        display: none;
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+    #pills-tabContent .col-sm-4{
+        margin-bottom: 20px !important;
+    }
+
+    .footer-column{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    iframe {
+        max-width: 100%;
+        height: 250px;
+    }
+
+}
+
+/* Fim media query */
