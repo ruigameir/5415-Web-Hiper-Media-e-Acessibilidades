@@ -43,12 +43,12 @@ a.text-info:hover {
     color: black !important;
 }
 
-.btn-info {
+.submit {
     background-color: crimson;
     border: crimson;
 }
 
-.btn-info:hover {
+.submit:hover {
     background-color: black;
 }
 
